@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="BomberMan.View.ButtonView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BomberMan.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background ="White">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="A" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding Almat}" Command="{Binding Press}" CommandParameter="0" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="W" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding WW}" Command="{Binding Press}" CommandParameter="1" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="D" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding DD}" Command="{Binding Press}" CommandParameter="2" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="S" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding SS}" Command="{Binding Press}" CommandParameter="3" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="Jobbra" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding Jobbra}" Command="{Binding Press}" CommandParameter="4" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="Balra" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding Balra}" Command="{Binding Press}" CommandParameter="5" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="Fel" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding Fel}" Command="{Binding Press}" CommandParameter="6" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="LE" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding Le}" Command="{Binding Press}" CommandParameter="7" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="E" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding EE}" Command="{Binding Press}" CommandParameter="8" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="M" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding MM}" Command="{Binding Press}" CommandParameter="9" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="N" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding NN}" Command="{Binding Press}" CommandParameter="10" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+            <StackPanel Margin="2,2,2,2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="F" Margin="0, 0, 0, 0" FontStyle="Oblique" Height="30" Width="60" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+                <Button Content="{Binding FF}" Command="{Binding Press}" CommandParameter="11" Margin="2, 2, 2, 2" FontStyle="Oblique" Height="30" Width="120" Background="RosyBrown" BorderThickness="1" BorderBrush="Black" FontFamily="Comic Sans MS"/>
+            </StackPanel>
+
+        </StackPanel>
+        <Button Content="Exit"  Command="{Binding Back}" Focusable="False" FontSize="30" Background="Gray" Height="50" Width="120" BorderBrush="Black" BorderThickness="1" Margin="646,19,34,381"/>
+
+    </Grid>
+</UserControl>

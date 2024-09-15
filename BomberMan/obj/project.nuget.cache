@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2j7vgkVnk8BpB2xSgupkoVPGiiaj6ED6z0hLi+JXoQBKhIIMzari1sre3v+MEbXp/kAVlHTuNuFdXPe5GKqNjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nagyd\\OneDrive\\Asztali gép\\boogie-vonat-master (1)\\boogie-vonat-master\\bomberman\\BomberMan\\BomberMan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nagyd\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\nagyd\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\nagyd\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\nagyd\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

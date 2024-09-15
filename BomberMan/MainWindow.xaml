@@ -1,0 +1,32 @@
+﻿<Window x:Class="BomberMan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BomberMan"
+        xmlns:viewmodels="clr-namespace:BomberMan.ViewModel"
+        xmlns:views="clr-namespace:BomberMan.View"
+        mc:Ignorable="d"
+        Title="BomberMan" Height="600" Width="1100"
+        Background="Gray"
+        MinWidth="1000"
+        MinHeight="700">
+    <ContentControl Content="{Binding CurrentViewModel}">
+        <ContentControl.Resources>
+            <DataTemplate DataType="{x:Type viewmodels:HomeViewModel}">
+                <views:HomeView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:SettingsViewModel}">
+                <views:ButtonView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:BombermanViewModel}">
+                <views:GameView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodels:EndViewModel}">
+                <views:EndView/>
+            </DataTemplate>
+        </ContentControl.Resources>
+    </ContentControl>
+
+
+</Window>

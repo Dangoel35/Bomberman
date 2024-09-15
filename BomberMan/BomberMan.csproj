@@ -1,0 +1,118 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Base\box.png" />
+    <None Remove="Images\Base\road.png" />
+    <None Remove="Images\Base\storm.png" />
+    <None Remove="Images\Base\wall.png" />
+    <None Remove="Images\Base\wall2.png" />
+    <None Remove="Images\bomb.png" />
+    <None Remove="Images\bombsup.png" />
+    <None Remove="Images\box.png" />
+    <None Remove="Images\debuff.png" />
+    <None Remove="Images\Design\terraria_background.jpg" />
+    <None Remove="Images\explosion.png" />
+    <None Remove="Images\invincibility.png" />
+    <None Remove="Images\Modifiers\barrier.png" />
+    <None Remove="Images\Modifiers\detonator.png" />
+    <None Remove="Images\Modifiers\ghost.png" />
+    <None Remove="Images\monster0.png" />
+    <None Remove="Images\monster1.png" />
+    <None Remove="Images\monster2.png" />
+    <None Remove="Images\monster3.png" />
+    <None Remove="Images\monsterdead.png" />
+    <None Remove="Images\Monsters\monster4.png" />
+    <None Remove="Images\Monsters\monster5.png" />
+    <None Remove="Images\Monsters\monster6.png" />
+    <None Remove="Images\Monsters\monster7.png" />
+    <None Remove="Images\p1.png" />
+    <None Remove="Images\p1invincible.png" />
+    <None Remove="Images\p2.png" />
+    <None Remove="Images\p2invincible.png" />
+    <None Remove="Images\pdead.png" />
+    <None Remove="Images\Players\p1ghost.png" />
+    <None Remove="Images\Players\p1ghostover.png" />
+    <None Remove="Images\Players\p1invincibleghost.png" />
+    <None Remove="Images\Players\p1invincibleghostover.png" />
+    <None Remove="Images\Players\p1invincibleover.png" />
+    <None Remove="Images\Players\p1invincibleoverghost.png" />
+    <None Remove="Images\Players\p1invincibleoverghostover.png" />
+    <None Remove="Images\Players\p2ghost.png" />
+    <None Remove="Images\Players\p2ghostover.png" />
+    <None Remove="Images\Players\p2invincibleghost.png" />
+    <None Remove="Images\Players\p2invincibleghostover.png" />
+    <None Remove="Images\Players\p2invincibleover.png" />
+    <None Remove="Images\Players\p2invincibleoverghost.png" />
+    <None Remove="Images\Players\p2invincibleoverghostover.png" />
+    <None Remove="Images\rangeup.png" />
+    <None Remove="Images\road.png" />
+    <None Remove="Images\rollerblades.png" />
+    <None Remove="Images\wall.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Design\terraria_background.jpg" />
+    <Resource Include="Images\Players\p2invincibleoverghostover.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Base\box1.png" />
+    <Resource Include="Images\Base\box.png" />
+    <Resource Include="Images\Base\road.png" />
+    <Resource Include="Images\Base\storm.png" />
+    <Resource Include="Images\Base\wall.png" />
+    <Resource Include="Images\Modifiers\barrier.png" />
+    <Resource Include="Images\Modifiers\ghost.png" />
+    <Resource Include="Images\Modifiers\detonator.png" />
+    <Resource Include="Images\Monsters\monster4.png" />
+    <Resource Include="Images\Monsters\monster7.png" />
+    <Resource Include="Images\Monsters\monster6.png" />
+    <Resource Include="Images\Monsters\monster5.png" />
+    <Resource Include="Images\Monsters\monsterdead.png" />
+    <Resource Include="Images\Monsters\monster0.png" />
+    <Resource Include="Images\Monsters\monster3.png" />
+    <Resource Include="Images\Monsters\monster2.png" />
+    <Resource Include="Images\Players\p1ghost.png" />
+    <Resource Include="Images\Players\p1ghostover.png" />
+    <Resource Include="Images\Players\p1invincibleover.png" />
+    <Resource Include="Images\Players\p1invincibleoverghostover.png" />
+    <Resource Include="Images\Players\p1invincibleoverghost.png" />
+    <Resource Include="Images\Players\p1invincibleghostover.png" />
+    <Resource Include="Images\Players\p1invincibleghost.png" />
+    <Resource Include="Images\Players\p1invincible.png" />
+    <Resource Include="Images\Players\p1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Players\p2ghost.png" />
+    <Resource Include="Images\Players\p2ghostover.png" />
+    <Resource Include="Images\Players\p2invincibleghost.png" />
+    <Resource Include="Images\Players\p2invincible.png" />
+    <Resource Include="Images\Players\p2.png" />
+    <Resource Include="Images\Bombs\bomb.png" />
+    <Resource Include="Images\Players\p2invincibleghostover.png" />
+    <Resource Include="Images\Players\p2invincibleover.png" />
+    <Resource Include="Images\Players\p2invincibleoverghost.png" />
+    <Resource Include="Images\Players\pdead.png" />
+    <Resource Include="Images\Bombs\explosion.png" />
+    <Resource Include="Images\Modifiers\rangeup.png" />
+    <Resource Include="Images\Modifiers\bombsup.png" />
+    <Resource Include="Images\Monsters\monster1.png" />
+    <Resource Include="Images\Modifiers\invincibility.png" />
+    <Resource Include="Images\Modifiers\debuff.png" />
+    <Resource Include="Images\Modifiers\rollerblades.png" />
+    <Resource Include="Images\Base\road1.png" />
+  </ItemGroup>
+
+</Project>
